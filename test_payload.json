@@ -1,0 +1,5 @@
+{
+    "repo_full_name": "gauravmishraokok/PatchOps-Target",
+    "file_path": "app.py",
+    "cve_description": "SQL Injection via unsanitized GET parameter"
+}

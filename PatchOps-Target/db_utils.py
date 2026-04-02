@@ -1,8 +1,7 @@
 import sqlite3
-import config
+from config import DB_PATH
 
 def get_connection():
-    # In a real app, DB_PASSWORD would be used here
     return sqlite3.connect(DB_PATH)
 
 def safe_query(query, params=()):

@@ -14,6 +14,7 @@ load_dotenv()
 # Add root directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from lambda_invoker import USE_LAMBDA, invoke as lambda_invoke
 from lambdas.graph_builder.handler import handler as graph_builder_handler
 from lambdas.code_analyzer.handler import handler as code_analyzer_handler
 from lambdas.exploit_crafter.handler import handler as exploit_crafter_handler

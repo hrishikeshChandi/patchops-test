@@ -1,4 +1,4 @@
-# Isolated Group 3 logger
+from datetime import datetime
 
 def log(msg):
-    print(f"[{utils.format_date(None)}] {msg}")
+    print(f"[{datetime.now().strftime('%Y-%m-%d')}] {msg}")
